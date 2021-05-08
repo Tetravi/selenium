@@ -1,1 +1,1 @@
-# selenium
+# run command protractor config.js
