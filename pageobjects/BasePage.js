@@ -15,20 +15,6 @@ class BasePage {
     clickButton(buttonName) {
         buttonName.click();
     }
-
-    isElementHasClass(element, expectedClass) {
-        return element.getAttribute('class').then(function (cssValue) {
-            return cssValue.indexOf(expectedClass) >= 0;
-        })
-    }
-
-
-    getAppHeader() {
-        return this.appNameHeader.getText().then(function (text) {
-                return text;
-            }
-        );
-    }
 }
 
 module.exports = BasePage;
