@@ -17,7 +17,7 @@ let indexPageSteps = {
 	
 	CheckSearchField: () => expect(indexPageObject.isElementVisible(indexPageObject.search_field)).to.eventually.be.true,
 
-    CheckSearchResult: (result) => expect(indexPageObject.search_results === result).to.eventually.be.true,
+        CheckSearchResult: (result) => expect(indexPageObject.search_results === result).to.eventually.be.true,
 
 	clickSubmit: () => indexPageObject.clickButton(indexPageObject.search_submit),
 	
