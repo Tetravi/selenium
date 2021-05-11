@@ -23,13 +23,6 @@ class BasePage {
     }
 
 
-    getPageHeader() {
-        return this.addComputerHeader.getText().then(function (text) {
-                return text;
-            }
-        );
-    }
-
     getAppHeader() {
         return this.appNameHeader.getText().then(function (text) {
                 return text;
