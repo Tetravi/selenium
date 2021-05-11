@@ -2,9 +2,7 @@
 
 class BasePage {
     constructor() {
-        this.appNameHeader = $('.fill>a');
-        this.addComputerHeader = $('#main>h1');
-    }
+        this.appNameHeader = $('.fill>a');}
 
     isElementVisible(element) {
         return element.isDisplayed();
